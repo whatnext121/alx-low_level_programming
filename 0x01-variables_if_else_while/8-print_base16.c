@@ -2,24 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main - Entry point
+ * Main - Print number between 0 to 0 and letters between a to f
  * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
- 
- 	int i;
-	
+ 	
+	int n;
 
-	for (i = 48; i <= 58; i++)
-	putchar(i);
-
-        for (i = 97; i <= 103; i++)
-        putchar(i);
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (n = 97; n < 103; n++)
+	{
+	       	putchar(n);
+	}			   }
         putchar('\n');
-
         return (0);
 }
 ~                                         
